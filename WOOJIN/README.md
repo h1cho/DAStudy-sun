@@ -37,3 +37,15 @@
     - pandas
     - matplotlib, seaborn
     - scipy
+---
+### TripAdviser 리뷰 감성 분석
+- 사용한 데이터셋
+    - [TripAdvisor Hotel Reviews](https://www.kaggle.com/datasets/joebeachcapital/hotel-reviews): TripAdviser에서 크롤링한 4333개 호텔의 리뷰 878561개 데이터 (json 형식 포함)
+- 진행 절차 및 내용
+    - 데이터 로딩, json 처리, 컬럼별 EDA
+    - 데이터 전처리 및 샘플링, NLP 감성 분석
+- 사용한 스킬셋
+    - pandas, numpy
+    - matplotlib, seaborn
+    - json
+    - torch, transformers
